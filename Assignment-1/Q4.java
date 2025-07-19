@@ -9,6 +9,6 @@ public class Q4 {
         System.out.println("Equal");
        }
        else
-       System.out.println("Not Equal");
+       System.out.println("not Equal");
     }
 }
