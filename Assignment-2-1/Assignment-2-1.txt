@@ -15,9 +15,9 @@ a) 1 b) w
 4. Write a program to do the following patterns using do...while loop?
 a) Pascal Triangle
 b) ZOHO
-CORP
-ORAT
-IONS
+   CORP
+   ORAT
+   IONS
 ‌
 5. Define a method to find the sum of even numbers from the series 1, 2, 3, 4, 5, ...n using continue statement.
 6. Define a method to convert the decimal number to a binary number?
