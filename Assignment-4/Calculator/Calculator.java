@@ -103,7 +103,7 @@ public class Calculator{
                 cal.log(number);  
                 break; 
             case "Exp":
-                cal.sin(number);  
+                cal.exp(number);  
                 break;                  
 
         }
