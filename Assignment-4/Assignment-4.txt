@@ -56,9 +56,11 @@ Now, try calling the method by the object of each of these classes.
 10. MyString replace(char oldChar, char newChar) – Replaces all occurrences of a character.
 * Implement proper constructors, including one that takes a char[] or String as input.
 * Avoid using any built-in String methods to perform the operations internally.
-* Write a main method to demonstrate the working of your MyString class.                                                                                                                                                                                                             7. Design a calculator application using Java Inheritance.
-‌
-7. Create the following class hierarchy:
+* Write a main method to demonstrate the working of your MyString class.                                                                                                     
+
+
+7. Design a calculator application using Java Inheritance.
+‌Create the following class hierarchy:
 ‌
 --->BasicCalculator (Base class):
 Implement at least three basic arithmetic methods, such as:
