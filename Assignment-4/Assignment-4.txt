@@ -43,7 +43,11 @@ Area is 3.14
 
 4. Write a program to illustrate that Classes cannot be used for multiple Inheritance.
 
-5. Create a class named Shape with a method that prints "This is a shape". Create another class named Polygon inheriting the Shape class with the same method that prints "Polygon is a shape". Create two other classes named Rectangle and Triangle having the same method which prints "Rectangle is a polygon" and "Triangle is a polygon" respectively. Again, make another class named Square having the same method which prints "Square is a rectangle".
+5. Create a class named Shape with a method that prints "This is a shape". Create another class named 
+Polygon inheriting the Shape class with the same method that prints "Polygon is a shape". 
+Create two other classes named Rectangle and Triangle having the same method which prints "Rectangle is a polygon" 
+and "Triangle is a polygon" respectively. Again, make another class named Square having the same method which prints 
+"Square is a rectangle".
 Now, try calling the method by the object of each of these classes.
 
 6. Design and implement a custom Java class named MyString that mimics the behavior of Java’s built-in String class. Your class should store character data internally (e.g., using a char[] or String as input) and should provide the following string methods,
