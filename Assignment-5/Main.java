@@ -7,3 +7,4 @@ class Main {
         System.out.println("Volume of cube: " + c.volume(3));
     }
 }
+
