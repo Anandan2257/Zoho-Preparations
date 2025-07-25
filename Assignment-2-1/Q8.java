@@ -21,5 +21,6 @@ public class Q8 {
             default:
                 System.out.println("fail");
         }
+        sc.close();
     }
 }
