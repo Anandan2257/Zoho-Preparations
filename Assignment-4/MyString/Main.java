@@ -135,6 +135,6 @@ public class Main {
         char newChar = sc.next().charAt(0);
 
         System.out.println("Replaces all occurrences: " + string.replace(oldChar, newChar));
-
+        sc.close();
     }    
 }

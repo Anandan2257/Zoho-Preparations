@@ -58,5 +58,6 @@ public class Test {
         c.setRadius(radius);
         c.printPoint();
         c.area();
+        sc.close();
     }
 }
