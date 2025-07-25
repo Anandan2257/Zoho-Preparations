@@ -7,6 +7,7 @@ public class Q3 {
 
     int c = a > b ? a:b; //ternary Operator
     System.out.print(c);
+    sc.close();
     }
     
 }

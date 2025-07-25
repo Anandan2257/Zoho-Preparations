@@ -10,5 +10,6 @@ public class Q4 {
        }
        else
        System.out.println("not Equal");
+       sc.close();
     }
 }
