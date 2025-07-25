@@ -14,7 +14,7 @@ class Vehicle {
 }
 
 class Car extends Vehicle {
-    double ownershipCost1;
+    double ownershipCost;
     int warranty; 
     int seatingCapacity;
     String fuelType;
@@ -23,9 +23,9 @@ class Car extends Vehicle {
         super();
     }
 
-    Car(int mileage, double price, double ownershipCost1, int warranty, int seatingCapacity, String fuelType) {
+    Car(int mileage, double price, double ownershipCost, int warranty, int seatingCapacity, String fuelType) {
         super(mileage, price);
-        this.ownershipCost1 = ownershipCost1;
+        this.ownershipCost = ownershipCost;
         this.warranty = warranty;
         this.seatingCapacity = seatingCapacity;
         this.fuelType = fuelType;
@@ -63,7 +63,7 @@ class Audi extends Car {
 
     void display() {
         System.out.println("Audi Model: " + modelType);
-        System.out.println("Ownership Cost: " + ownershipCost1);
+        System.out.println("Ownership Cost: " + ownershipCost);
         System.out.println("Warranty: " + warranty + " years");
         System.out.println("Seating Capacity: " + seatingCapacity);
         System.out.println("Fuel Type: " + fuelType);
@@ -82,7 +82,7 @@ class Ford extends Car {
 
     void display() {
         System.out.println("Ford Model: " + modelType);
-        System.out.println("Ownership Cost: " + ownershipCost1);
+        System.out.println("Ownership Cost: " + ownershipCost);
         System.out.println("Warranty: " + warranty + " years");
         System.out.println("Seating Capacity: " + seatingCapacity);
         System.out.println("Fuel Type: " + fuelType);
