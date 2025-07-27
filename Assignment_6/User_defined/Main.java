@@ -15,6 +15,9 @@ public class Main {
 
         Mod mod = new Mod();
         System.out.println("Mod: " + mod.mod(5, 2));
+
+
+        
     }
 }
 
