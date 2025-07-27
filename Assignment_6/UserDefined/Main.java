@@ -16,7 +16,14 @@ public class Main {
         Mod mod = new Mod();
         System.out.println("Mod: " + mod.mod(5, 2));
 
+        String str = "Zoho ";
+        String str1 = "Anandan";
 
+        Concat concat = new Concat();
+        System.out.println("Concat: " + concat.concat(str, str1));
+
+        Reversing reversing = new Reversing();
+        System.out.println("Reversing: " + reversing.reversing(str, str1));
         
     }
 }
