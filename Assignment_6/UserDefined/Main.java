@@ -25,6 +25,8 @@ public class Main {
         Reversing reversing = new Reversing();
         System.out.println("Reversing: " + reversing.reversing(str, str1));
         
+        Length length = new Length();
+        System.out.println("Length: " + length.length(str1+str));
     }
 }
 
