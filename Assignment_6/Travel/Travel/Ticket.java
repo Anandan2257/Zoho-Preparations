@@ -1,3 +1,4 @@
+package Travel;
 public class Ticket {
     private int ticketID;
     private String destination;

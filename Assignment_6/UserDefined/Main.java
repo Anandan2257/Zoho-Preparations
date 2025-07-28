@@ -1,32 +1,28 @@
+import stringutils.Helper;
+import arithmetic.Calci;
 public class Main {
     public static void main(String[] args) {
 
-        Add add = new Add();
-        System.out.println("Sum: " + add.add(10, 20));
+        Calci ari = new Calci();
+        System.out.println("Sum: " + ari.add(10, 20));
 
-        Sub sub = new Sub();
-        System.out.println("Sub: " + sub.sub(10, 20));
+        System.out.println("Sub: " + ari.sub(10, 20));
 
-        Multiply multi = new Multiply();
-        System.out.println("Multiply: " + multi.mul(1, 5));
+        System.out.println("Multiply: " + ari.mul(1, 5));
 
-        Division division = new Division();
-        System.out.println("Division: " + division.division(10, 2));
+        System.out.println("Division: " + ari.division(10, 2));
 
-        Mod mod = new Mod();
-        System.out.println("Mod: " + mod.mod(5, 2));
+        System.out.println("Mod: " + ari.mod(5, 2));
 
         String str = "Zoho ";
         String str1 = "Anandan";
 
-        Concat concat = new Concat();
-        System.out.println("Concat: " + concat.concat(str, str1));
+        Helper stringHelper = new Helper();
+        System.out.println("Concat: " + stringHelper.concat(str, str1));
 
-        Reversing reversing = new Reversing();
-        System.out.println("Reversing: " + reversing.reversing(str, str1));
+        System.out.println("Reversing: " + stringHelper.reversing(str, str1));
         
-        Length length = new Length();
-        System.out.println("Length: " + length.length(str1+str));
+        System.out.println("Length: " + stringHelper.length(str1+str));
     }
 }
 

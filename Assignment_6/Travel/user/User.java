@@ -1,3 +1,5 @@
+package user;
+import Travel.Ticket;
 public class User {
     String name;
     int age;
