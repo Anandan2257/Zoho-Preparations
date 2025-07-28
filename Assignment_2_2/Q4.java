@@ -14,7 +14,7 @@ public class Q4 {
         }
 
         for (int i = 0; i < n; i++) {
-            if (arr[i] < 10) {
+            if (arr[i] < 10 && arr[i] > 0) {
                 sumOfSingle += arr[i];
             } else {
                 sumOfDouble += arr[i];
