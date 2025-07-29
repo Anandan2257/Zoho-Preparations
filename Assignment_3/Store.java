@@ -44,7 +44,7 @@ class Product {
     }
 
     void displayProduct() {
-        System.out.println("ID: " + id + ", Name: " + name + ", Price: ₹" + price + ", Quantity: " + quantity);
+        System.out.println("ID: " + id + ", Name: " + name + ", Price: " + price + ", Quantity: " + quantity);
     }
 }
 
@@ -74,7 +74,7 @@ class Store {
     }
 
     public static void main(String[] args) {
-        Store.setStoreDetails("Wegic Mart", "Chennai");
+        Store.setStoreDetails("Anandan Store", "Chennai");
 
         Store myStore = new Store();
 
