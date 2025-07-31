@@ -1,3 +1,5 @@
+//Illustrates with an example of using Singleton class
+
 class SingletonClass{
     static SingletonClass s = null; // create object...
 
