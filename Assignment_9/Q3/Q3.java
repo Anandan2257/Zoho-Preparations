@@ -1,4 +1,5 @@
 
+/*Write a program to illustrate how to throw a ClassNotFoundException */
 
 public class Q3 {
     public static void main(String[] args){
