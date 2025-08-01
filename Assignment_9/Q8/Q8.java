@@ -3,8 +3,6 @@ incorrect. Handle it and display a login failure message. */
 
 import java.util.Scanner;
 
-
-
 class AuthenticationException extends Exception{
     public AuthenticationException(String message){
          super(message);
