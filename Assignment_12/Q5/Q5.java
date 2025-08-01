@@ -6,5 +6,7 @@ create thread to check the PIN number, another thread to perform the cash withdr
 one to check the balance amount and print the receipt. */
 
 public class Q5 {
-    
+    public static void main(String[] args) {
+        
+    }
 }
