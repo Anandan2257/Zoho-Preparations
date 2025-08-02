@@ -50,7 +50,7 @@ public class Q1{
         // g. Search for an element
         String searchColor = "Blue";
         boolean found = colors.contains(searchColor);
-        System.out.println("g. Is '" + searchColor + "' in the list? " + found);
+        System.out.println("g. Is '" + searchColor + "' in the list:  " + found);
 
         // h. Sort the ArrayList
         Collections.sort(colors);
