@@ -15,7 +15,7 @@ class Account{
     }
 
     void newBalance(double interest){
-        Double newBalance = balance + (balance + interest);
+        Double newBalance = balance + (balance + interest); //autoboking
         System.out.println("New Balance After Adding 4 %: " + this.balance * 4);
     }
 }
@@ -25,7 +25,7 @@ public class Q8 {
         ArrayList<Account> bankDetails = new ArrayList<>();
 
         double interestRatePrimitive = 0.04;
-        Double interestRate = Double.valueOf(interestRatePrimitive);
+        Double interestRate = Double.valueOf(interestRatePrimitive); //Boking
 
         bankDetails.add(new Account(101,"Anandan", 100000));
         bankDetails.add(new Account(102,"Abi", 150000));
