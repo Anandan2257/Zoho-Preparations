@@ -21,11 +21,17 @@ public class Q2 {
         try{
             FileReader fr = new FileReader("new.txt");
             BufferedReader br = new BufferedReader(fr);
+            StringBuilder content = new StringBuilder();
             String line = br.readLine();
             while(line != null){
-                
+                content.append(line);
+                line = br.readLine();
             }
-
+            br.close();
+            fr.close();
+            System.out.println("File Content: " + content.toString());
+        }catch(Exception e){
+            System.out.println(e);
         }
     }
 }
