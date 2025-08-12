@@ -16,7 +16,7 @@ class Count{
             }
              }
              count++;
-            System.out.println("Count Add: " + count);
+            System.out.println("Product Add: " + count);
             try{
                 Thread.sleep(500);
             }catch(Exception e){
@@ -36,7 +36,7 @@ class Count{
                     System.out.println(e);
             }
         }
-            System.out.println("Count Remove: " + count);
+            System.out.println("Consumer get: " + count);
             count--;
             try{
                 Thread.sleep(500);
