@@ -8,9 +8,17 @@ public class Bike extends Vehicle {
         this.fuelConsumed = fuelConsumed;
     }
 
+    public double getFuelConsumed() {
+        return fuelConsumed;
+    }
+
+    public void setFuelConsumed(double fuelConsumed) {
+        this.fuelConsumed = fuelConsumed;
+    }
+
     @Override
-    public void calculateMileage() { 
-        double mileage = getDistance() / fuelConsumed;
+    public void calculateMileage() {
+        double mileage = getDistance() / getFuelConsumed();
         System.out.println("Bike Mileage: " + mileage + " km/l");
     }
 }

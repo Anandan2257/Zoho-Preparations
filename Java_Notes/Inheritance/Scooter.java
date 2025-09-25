@@ -8,9 +8,17 @@ public class Scooter extends Vehicle {
         this.fuelConsumed = fuelConsumed;
     }
 
+    public double getFuelConsumed() {
+        return fuelConsumed;
+    }
+
+    public void setFuelConsumed(double fuelConsumed) {
+        this.fuelConsumed = fuelConsumed;
+    }
+
     @Override
     public void calculateMileage() {
-        double mileage = getDistance() / fuelConsumed;
+        double mileage = getDistance() / getFuelConsumed();
         System.out.println("Scooter Mileage: " + mileage + " km/l");
     }
 }
